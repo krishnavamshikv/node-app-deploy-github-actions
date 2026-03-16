@@ -1,6 +1,7 @@
 {
   "family": "express-app-task",
   "networkMode": "awsvpc",
+  "executionRoleArn": "arn:aws:iam::035842752845:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "express-container",
